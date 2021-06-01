@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'DSEG7Classic';
+    src: url('../../fonts/DSEG7Classic-Regular.woff') format('woff'), url('../../fonts/DSEG7Classic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 .widget-clock {
-    background-color: rgb(220, 89, 69);
+    background-color: rgb(0, 0, 0);
 }
 
 .widget-clock h1 {
@@ -7,5 +15,6 @@
 }
 
 .widget-clock h2 {
+    font-family: 'DSEG7Classic';
     font-size: 76px;
 }

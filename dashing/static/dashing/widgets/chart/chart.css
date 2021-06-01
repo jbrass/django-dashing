@@ -1,9 +1,9 @@
-.widget-graph { 
-    background-color: #ff9618;;
+.widget-chart { 
+    background-color: #222222;
     position: relative;
 }
 
-.widget-graph svg {
+.widget-chart svg {
     position: absolute;
     opacity: 0.4;
     fill-opacity: 0.4;
@@ -11,48 +11,48 @@
     top: 0px;
 }
 
-.widget-graph h1, h2 {
+.widget-chart h1, h2 {
     position: relative;
     z-index: 99;
 }
 
-.widget-graph h1 { 
+.widget-chart h1 { 
     color: rgba(0, 0, 0, 0.7);
 }
 
-.widget-graph .more-info {
+.widget-chart .more-info {
     color: rgba(255, 255, 255, 0.3);
     font-weight: 600;
     font-size: 20px;
     margin-top: 0;
 }
 
-.widget-graph .x_tick {
+.widget-chart .x_tick {
     position: absolute;
     bottom: 0;
 }
 
-.widget-graph .x_tick .title {
+.widget-chart .x_tick .title {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.4);
     opacity: 0.5;
     padding-bottom: 3px;
 }
 
-.widget-graph .y_ticks {
+.widget-chart .y_ticks {
     font-size: 20px;
     fill: rgba(0, 0, 0, 0.4);
     fill-opacity: 1;
 }
 
-.widget-graph .domain {
+.widget-chart .domain {
     display: none;
 }
 
-.widget-graph .x_tick {
+.widget-chart .x_tick {
     border: none;
 }
 
-.widget-graph .tick {
+.widget-chart .tick {
     stroke: transparent !important;
 }
