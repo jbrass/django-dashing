@@ -44,6 +44,7 @@ rivets.binders['dashing-graph'] = function binder(el, data) {
         element: container,
         width: container.width,
         height: container.height,
+        min:'auto',
         series: [{
             color: '#fff',
             data: data
